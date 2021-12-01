@@ -1,0 +1,58 @@
+body{
+    font-family: Arial;
+}
+
+.container{
+    display: flex;
+}
+
+.picture .gif{
+    max-width: 100%;
+}
+
+
+.block{
+    width: 100%;
+    text-align: center;
+}
+
+.block .error{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 100px;
+    color: #1f3851;
+    margin-bottom: 10px;
+}
+
+.block .title{
+    font-weight: 100;
+    font-size: 50px;
+    color:#777;
+    margin: 0;
+}
+
+.block .text{
+    line-height: 25px;
+    font-size: 30px;
+    color: #777;
+}
+
+.block .text .link{
+    color: black;
+}
+
+.block .buttons{
+    display: flex;
+}
+
+
+.block .buttons .btn{
+    text-transform: uppercase;
+    background: linear-gradient(
+        90deg,#eb8357 9.07%,#eb5757 87.84%);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 18px;
+    padding: 10px;
+    margin: 10px;
+}
