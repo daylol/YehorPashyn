@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .section{
+            min-height: 1000px;
+            background-image: url(img/picture.jpg);
+            background-size: cover;
+            max-width: 1920px;
+        }
+        .container{
+            margin: 5px;
+            display: flex;
+        }
+        .container .background1{
+            width: 50%;
+            margin: 0px;
+        }
+        .container .background1 .heading{
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .container .background1 .text{
+            text-transform: lowercase;
+            text-indent: 20px;
+        }
+        .container .form{
+            width: 50%;
+            margin: 5px;
+            line-height: 2
+        }
+        .container .form .input{
+            width: 180%;
+        }
+    </style>
+    <section class="section">
+        <div class="container">
+            <div class="background1">
+              <h1 class="heading">heading1</h1>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et illo fuga labore laudantium provident necessitatibus.
+              </p>
+            </div>
+            <div class="form">
+              <form action="#" class="form">
+                <input class="input"  type="text" placeholder="Ваше имя..." />
+                <input class="input"  type="tel" placeholder="Номер телефона" />
+                <textarea class="input" name="textarea" cols="30" rows="5" placeholder="Сообщение..."
+                ></textarea>
+                <input class="input"  type="submit" value="Отправить" />
+              </form>
+            </div>
+          </div>
+    </section>
+</body>
+</html>
