@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.main{
+    background: rgb(0, 245, 224);
+    background-size: cover;
+    height: 1089px;
+    z-index: 6;
+}
+
+.request{
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -300px;
+    margin-left: -200px;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px;
+}
+
+.request h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    color: rgb(204, 50, 30);
+}
+
+/*-.request h2:before{
+    content: 'x';
+    font-weight: 900;
+    position: absolute;
+    top: -27px;
+    text-transform: lowercase;
+    left: 274px;
+    cursor: pointer;
+}-*/
+
+label{
+    color: rgb(204, 50, 30);
+}
+
+.closed{
+    color: rgb(204, 50, 30);
+    font-weight: 900;
+    position: absolute;
+    top: 10px;
+    text-transform: uppercase;
+    left: 370px;
+    cursor: pointer;
+}
+
+.form{
+    margin-left: 40px;
+    width: 300px;
+    height: 375px;
+    align-content: center;
+}
+form .input {
+	padding: 10px;
+	width: 100%;
+}
+input{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    
+}
+input:focus{
+    box-shadow: 0 0 15px rgb(172, 77, 77);
+} 
+textarea:focus{
+    box-shadow: 0 0 15px rgb(172, 77, 77);
+}
+textarea{
+    border-radius: 8px;
+}
+
+.input{
+    font-size: 15px;
+    font-style: italic;
+    color:black;
+    /*-border: none;-*/
+    border: 1px solid rgb(224, 224, 224);
+    width: 100%;
+    padding: 8px 0px 8px 15px;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: none;
+    line-height: 2;
+    height: 33px;
+
+}
+
+textarea{
+    height: 20px;
+    background: rgb(255, 255, 255);
+}
+button{
+    background:  linear-gradient(to left, violet, red);
+    margin: 0 auto;
+    border-radius: 8px;
+    height: 45px;
+    width: 106%;
+    font-style: italic;
+    font-size: 20px;
+    color: #fff;
+}
+
