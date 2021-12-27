@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 3000px;
+}
+
+.page{
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.block p{
+    font-size: 30px;
+    text-shadow: 15px 15px ;
+    margin-bottom: 20px;
+}
+
+.block2 p{
+    font-size: 30px;
+    text-shadow: 15px 15px 2px;
+    margin-bottom: 20px;
+}
+
+.block3 p{
+    font-size: 30px;
+    text-shadow: 10px 10px 2px blue, -10px -10px 2px red;
+    margin-bottom: 20px;
+}
+
+.block4 p{
+    font-size: 30px;
+    text-shadow: 3px 3px 5px #2c2c2c;
+    margin-bottom: 20px;
+}
+
+.block5 p{
+    font-size: 30px;
+    text-shadow: 
+    1px 1px 0,
+    2px 2px 0,
+    3px 3px 0;
+    margin-bottom: 20px;
+}
+
+.block5 p:hover{
+    text-shadow: 
+    -1px 1px 0,
+    -2px 2px 0,
+    -3px 3px 0;
+}
+
+.block6 p{
+    font-size: 30px;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+    color:#E2A126; 
+}
+
+.block7{
+    width: 300px;
+    height: 200px;
+    background: radial-gradient(white,blue);
+    margin-bottom: 20px;
+}
+
+.block8{
+    width: 300px;
+    height: 200px;
+    background: radial-gradient(circle closest-side at 13% 20%,white, red);
+    margin-bottom: 20px;
+}
+
+.block9{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+    background: radial-gradient(ellipse closest-side, black 19%, white 32%, green)
+}
+
+.block10{
+    margin-bottom: 30px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    box-shadow: 20px 20px;
+}
+
+.block11{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    box-shadow: 20px 20px 20px;
+}
+
+.block12{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    box-shadow: 9px 4px 8px 0px rgba(0, 122, 216, 1) inset, -15px -15px 8px 0px rgba(216, 0, 0, 1) inset;
+}
+
+.block13{
+    margin-bottom: 20px;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to right, red, blue, black,green);
+}
+
+.block14{
+    margin-bottom: 20px;
+    width: 500px;
+    height: 300px;
+    background: linear-gradient(red 33%, white 33% 66%, red 66%);
+    border: 1px solid #000;
+}
